@@ -1,26 +1,62 @@
 /* src/App.css */
 .app {
   min-height: 100vh;
-  padding: 2rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  padding: 0.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
 }
 
 .app-header {
   margin-bottom: 2rem;
+  background-color: green;
+  border: 1pt solid white;
 }
 
 .app-header h1 {
-  margin: 0 0 0.5rem;
+  margin: 0.5rem;
+  font-size: 24pt;
+}
+
+.app-nav {
+  display: flex;
+  gap: 1rem;
+  background-color: rgb(245, 221, 190);
+}
+
+.app-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12pt;
+  color: red;
 }
 
 .app-main {
   max-width: 800px;
+  margin-top: 0.5rem;
+  background-color: blue;
+  padding: 2pt;
 }
 
 .app-section {
-  padding: 1.5rem;
+  padding: 0 0.5rem;
   border-radius: 0.75rem;
-  border: 1px solid #e5e5e5;
-  background: #fafafa;
+  border: 1px solid #b1b1fa;
+  background: #cacabf;
+  color: black;
+  margin-bottom: 0;
+}
+
+.app-section h2 {
+  margin-bottom: 0;
+}
+
+.gray-box {
+  background: #aaa;
+  border: 1px solid #666;
+  border-radius: 9pt;
+  padding: 6pt;
+  margin: 2pt 0;
+}
+h1, h2, h3, h4 {
+  margin: 2pt 0 0;
 }

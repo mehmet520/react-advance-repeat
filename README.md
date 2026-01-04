@@ -1,16 +1,73 @@
-# React + Vite
+# react-advance-repeat
 
+## Short description
+
+This project contains advanced repeat patterns and examples for a React-based application. It is set up for development using Vite + React.
+
+## Requirements
+
+- Node.js (recommended 16+)
+- npm or yarn
+
+## Installation
+
+1. Clone or copy the repository.
+2. Change to the project directory:
+
+   ```bash
+   cd /Users/myilm/ReactApps/react-advance-repeat
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn
+   ```
+
+## Development
+
+- npm run dev
+- yarn dev
+
+## Build
+
+- npm run build
+- yarn build
+
+## Lint
+
+- npm run lint
+- yarn lint
+
+## Project structure (brief)
+
+- `src/` — application source code
+- `public/` — static files
+- `eslint.config.js` — ESLint configuration
+
+## Contributing
+
+Pull requests and bug reports are welcome. Please open an issue before submitting larger changes.
+
+## License
+
+Add license information here if applicable.
+
+React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+@vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
+@vitejs/plugin-react-swc uses SWC for Fast Refresh
+React Compiler
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Expanding the ESLint configuration
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
