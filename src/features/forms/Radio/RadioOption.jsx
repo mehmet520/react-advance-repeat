@@ -1,9 +1,9 @@
 
 function RadioOption({ name, value, checked, onChange, children }) {
   return (
-    <label htmlFor={value} className="RadioOption">
+    <label htmlFor={`${name}-${value}`} className="RadioOption">
         <input 
-        id={value}
+        id={`${name}-${value}`}
         type="radio" 
         name={name}
         value={value}

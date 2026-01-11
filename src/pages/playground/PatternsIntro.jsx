@@ -1,20 +1,35 @@
+import HOCDemo from "../../features/patterns/hoc/HOCDemo";
+import Mouse from "../../features/patterns/hoc/mouse-tracker/Mouse";
+import DataFercherShow from "../../features/patterns/render-props/data-fetcher/DataFetcherShow";
+import RenderPropsDemo from "../../features/patterns/render-props/RenderPropsDemo";
+
 // src/pages/playground/PatternsIntro.jsx
 function PatternsIntro() {
   return (
     <section className="app-section">
-      <h3>Gelişmiş Bileşen Kalıpları (Patterns)</h3>
+      <h3>Fortgeschrittene Komponentenmuster(Patterns)</h3>
       <p>
-        Bu sayfada Higher-Order Component (HOC), Render Props ve
-        benzeri ileri seviye bileşen kalıplarını inceleyeceğiz.
-        Amaç, aynı davranışı farklı bileşenler arasında paylaşmanın
-        alternatif yollarını görmek olacak.
+        Auf dieser Seite werden wir Higher-Order Components (HOCs), Render Props
+        und ähnliche fortgeschrittene Komponentenmuster untersuchen. Das Ziel
+        wird sein, alternative Wege zu sehen, um dasselbe Verhalten zwischen
+        verschiedenen Komponenten zu teilen.
       </p>
       <p>
-        src/features/patterns klasöründe bu kalıpları gösteren
-        küçük örnekler hazırlayacağız.
+        Wir werden kleine Beispiele, die diese Muster im Ordner
+        src/features/patterns zeigen, vorbereiten.
       </p>
+      <p>
+        In den folgenden Beispielen werden wir zuerst sehen, wie wir eine
+        Komponente einfach mit einem HOC umhüllen können, und anschließend, wie
+        wir das UI mithilfe von Render Props von einer externen Funktion
+        definieren können.
+      </p>
+      <DataFercherShow />
+      <RenderPropsDemo />
+      {/* <Mouse /> */}
+      <HOCDemo />
     </section>
-  )
+  );
 }
 
-export default PatternsIntro
+export default PatternsIntro;

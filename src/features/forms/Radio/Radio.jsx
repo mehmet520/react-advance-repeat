@@ -15,6 +15,7 @@ function Radio() {
             <RadioOption value='advertising'>Advertising</RadioOption>
             <RadioOption value='other'>Others</RadioOption>
         </RadioGroup>
+        <p> "{selected}" secildi.</p>
         <button disabled={!selected}>Submit</button>
       </div>
     </section>
